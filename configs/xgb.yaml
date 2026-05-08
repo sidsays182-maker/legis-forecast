@@ -1,0 +1,14 @@
+model: xgboost
+params:
+  n_estimators: 600
+  max_depth: 6
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8
+  scale_pos_weight: 16
+  eval_metric: aucpr
+  random_state: 42
+calibrate: isotonic
+test_size: 0.15
+val_size: 0.15
+target: passed

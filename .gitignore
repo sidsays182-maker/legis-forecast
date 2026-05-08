@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+data/raw/
+data/processed/
+artifacts/
+mlruns/
+.ipynb_checkpoints/
+.DS_Store
